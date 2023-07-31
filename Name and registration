@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class Student
+{  
+ int id;  
+ String name;  
+}  
+class Details
+{  
+public static void main(String[] args)
+{  
+Student s1=new Student();  
+s1.id=192225077;  
+s1.name="Manokarthikreddy";  
+System.out.println(s1.id +" "+s1.name);
+}
+}
