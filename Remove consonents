@@ -1,0 +1,13 @@
+class ConsonantRemoval 
+{
+public static void main(String[] args) 
+{
+String input = "Hello,have a nice day";
+String result = removeConsonants(input); 
+System.out.println(result); 
+}
+public static String removeConsonants(String input) 
+{
+return input.replaceAll("[^aeiouAEIOU]", "");
+}
+}
