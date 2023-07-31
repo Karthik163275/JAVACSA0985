@@ -1,0 +1,18 @@
+class sum
+{
+public static void main(String[] args)
+{
+int a = -5,b = 8,c= 6;
+int a1 = 55,b1 = 9,c1=9;
+int a2 = 20,b2 = -3,c2=5,d=8;
+int a3 = 5,b3=15,c3=3,d1=2,e=8,d2=3;
+int sum = a+b*c;
+int sum1 = (a1+b1)%c1;
+int sum2 =a2+b2*c2/d;
+int sum3 = a3+b3/c3*d1-e%d2;
+System.out.println(sum);
+System.out.println(sum1);
+System.out.println(sum2);
+System.out.println(sum3);
+}
+}
