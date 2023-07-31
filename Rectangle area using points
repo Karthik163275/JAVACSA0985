@@ -1,0 +1,26 @@
+import java.util.Scanner;
+class Area
+{
+void Area(int l,int b)
+{
+int lenght;
+int breath;
+length = l;
+breadth = b;
+} 
+}
+int area()
+{
+return lenght * breath;
+}
+}
+class Rectangle
+{
+public static void main(String[] args) 
+{
+Scanner obj = new Scanner(4,5);
+Scanner obj1 = new Scanner(5,8);
+System.out.print(obj.area());
+System.out.print(obj1.area());
+}
+}
